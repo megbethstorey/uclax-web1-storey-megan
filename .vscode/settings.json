@@ -36,7 +36,7 @@
     "explorer.compactFolders": false,
     "terminal.integrated.defaultProfile.osx": "zsh",
     "debug.onTaskErrors": "debugAnyway",
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.ignoreTrimWhitespace": true,
     "phpmd.enabled": false,
     "vsicons.dontShowNewVersionMessage": true,
     "git.suggestSmartCommit": false,
