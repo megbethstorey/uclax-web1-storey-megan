@@ -43,8 +43,15 @@ const Essays = () => {
                 current state, and React takes care of updating the DOM
                 efficiently.
             </SingleEssay>
-            <SingleEssay question={`Q4: Sample Question...`}>
-                Answer 4 goes here.
+            <SingleEssay
+                question={`What is the difference between a Front-End and a Back-End developer?`}
+            >
+                Front-end developers work on the visible parts of a website or
+                app that users interact with directly, focusing on design and
+                user experience using languages like HTML, CSS, and JavaScript.
+                Back-end developers handle the server-side logic and databases
+                that power the front-end, ensuring functionality, security, and
+                scalability using languages like Python, Ruby, PHP, or Java.
             </SingleEssay>
         </EssaysStyled>
     );
