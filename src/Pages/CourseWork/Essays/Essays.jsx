@@ -8,7 +8,7 @@ const Essays = () => {
             <h2>Essays</h2>
 
             <SingleEssay
-                question={`Q1: Explain the difference between HTML, CSS & Javascript.`}
+                question={`Explain the difference between HTML, CSS & Javascript.`}
             >
                 HTML defines the structure and content of web pages using markup
                 tags. CSS controls the presentation and style of HTML elements,
@@ -52,6 +52,23 @@ const Essays = () => {
                 Back-end developers handle the server-side logic and databases
                 that power the front-end, ensuring functionality, security, and
                 scalability using languages like Python, Ruby, PHP, or Java.
+            </SingleEssay>
+            <SingleEssay
+                question={`In React, what are the different ways we can link to resources (e.g. Root Relative vs Document Relative)?`}
+            >
+                In React, linking to resources can be done using different
+                methods. Root Relative Links are specified relative to the root
+                of the website or application. They always start with a forward
+                slash ("/") and refer to the root directory of the site.
+                Document Relative Links are specified relative to the current
+                document's location. They do not begin with a forward slash and
+                refer to resources within the same directory or a subdirectory
+                of the current document. Both methods have their use cases based
+                on the structure and requirements of the project. Root relative
+                links are beneficial for linking to resources across the entire
+                application, while document relative links are useful for
+                referencing resources within the same area or hierarchy of the
+                application.
             </SingleEssay>
         </EssaysStyled>
     );
