@@ -17,7 +17,7 @@ export default Accolades;
 
 // prop-types
 Accolades.propTypes = {
-    prop: PropTypes.array.isRequired,
+    accolades: PropTypes.array.isRequired,
 };
 
 const AccoladesStyled = styled.ul`
