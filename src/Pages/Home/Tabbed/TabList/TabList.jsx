@@ -24,7 +24,9 @@ export default TabList;
 
 // prop-types
 TabList.propTypes = {
-    prop: PropTypes.array.isRequired,
+    tabs: PropTypes.array.isRequired,
+    curTab: PropTypes.object.isRequired,
+    curTabUpdate: PropTypes.func.isRequired,
 };
 
 const TabListStyled = styled.div``;

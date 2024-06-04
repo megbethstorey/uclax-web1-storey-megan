@@ -19,7 +19,9 @@ export default TabItem;
 
 // prop-types
 TabItem.propTypes = {
-    prop: PropTypes.object.isRequired,
+    tab: PropTypes.object.isRequired,
+    curTab: PropTypes.object.isRequired,
+    curTabUpdate: PropTypes.func.isRequired,
 };
 
 const TabItemStyled = styled.div`
